@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    line-height: 1.6;
+    color: #555;
+}
+
+section ol, section ul {
+    list-style-type: none;
+}
+
+section ol li, section ul li {
+    margin-bottom: 10px;
+}
+
+section ol li strong, section ul li strong {
+    font-weight: bold;
+}
+
+section ol li em, section ul li em {
+    font-style: italic;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #00f;;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
